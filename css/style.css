@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@700&family=Zen+Old+Mincho&display=swap');
 body{
     padding: 0;
     margin: 0;
     font-family: sans-serif;
     background: grey;
+}
+.font-arial{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.font-rokkit{
+    font-family: 'Rokkitt', serif;
+    font-family: 'Zen Old Mincho', serif;
 }
 .box{
     position: relative;
@@ -59,9 +67,6 @@ body{
 }
 .plr{
     padding: 10px 35px 10px;
-}
-.pt{
-    height: 29.95rem;
 }
 .h{
     height: 50vh;
