@@ -342,9 +342,6 @@ nav label,input{
     .mt-4{
         margin-top: 10px;
     }
-    .h-5{
-        height: 100%;
-    }
 }
 
 @media(max-width:480px){
@@ -428,8 +425,5 @@ nav label,input{
     }
     .mt-4{
         margin-top: 10px;
-    }
-    .h-5{
-        height: 100%;
     }
 }
