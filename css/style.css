@@ -258,7 +258,7 @@ nav label,input{
 }
 ::placeholder{
     font-size: 1rem;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 10px;
 }
 @media(max-width:850px){
@@ -342,7 +342,7 @@ nav label,input{
         position: none;
     }
     .w-3{
-        width: 95%;
+        width: 94%;
     }
     .mt-4{
         margin-top: 10px;
@@ -428,13 +428,13 @@ nav label,input{
         display: block;
         position: none;
     }
-    .w-3{
-        width:89%;
-    }
     .mt-4{
         margin-top: 10px;
     }
     .h-5{
         height: 100%;
+    }
+    .w-3{
+        width: 89.2%;
     }
 }
