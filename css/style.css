@@ -1,6 +1,3 @@
-*{
-    box-sizing: border-box;
-}
 body{
     padding: 0;
     margin: 0;
@@ -139,12 +136,6 @@ body{
 .text-center{
     text-align: center;
 }
-.icon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-}
 .word-break{
     word-break: break-all;
 }
@@ -200,7 +191,6 @@ nav label,input{
     margin-right: 2rem;
     display: none;
 }
-/* ---------------------header----------------- */
 #header{
     display: flex;
 }
@@ -237,11 +227,9 @@ nav label,input{
     background-size: cover;
     background-position: center center;
 }
-/* --------module------------ */
 #module img{
     width: 12%;
 }
-/* --------about--------------- */
 .img-about-left{
     background: url(../img/6.jpg);
     background-size: cover;
@@ -258,7 +246,6 @@ nav label,input{
     background-position: center center;
     background-attachment: fixed;
 }
-/* --------contact------- */
 #form .form-1 label,input{
     display: block;
     position: none;
