@@ -10,11 +10,10 @@
 </head>
 <body>
     <nav class="home">
-        <input type="checkbox" id="check">
+        <input class="d-none" type="checkbox" id="check">
         <label for="check">
             <i class="fas fa-bars"></i>
         </label>
-        </div>
         <div class="nav ">
             <div class="logo text-uppercase font-weight text-white"><strong class="text-black">somnak</strong > kalan</div>
             <ul class="d-flex text-uppercase font-weight">
@@ -42,16 +41,16 @@
                 </div>
             </div>
         </div>
-        <div class="icon ">
+        <div class="icon text-white ">
             <div>
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-instagram-square"></i>
-                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-facebook-square font-size-1"></i>
+                <i class="fab fa-instagram-square font-size-1"></i>
+                <i class="fab fa-twitter-square font-size-1"></i>
             </div>
         </div>
     </nav>
     <section id="feature" class=" m">
-        <div class="d-flex justify-centent-center ">
+        <div class="d-flex justify-centent-center container ">
             <div>
                 <h4 class="bt text-uppercase">feature</h4>
                 <p>
@@ -61,23 +60,29 @@
         </div>
         <div class="rounded container d-flex bg-white p-1 group-card">
             <div class="card word-break p-1">
-                <i class="fas fa-check-circle font-size"></i>
-                <h4 class="">feature 1</h4>
+                <div class="element-center">
+                    <i class="fas fa-check-circle font-size icon"></i>
+                </div>
+                <h4 class="text-uppercase element-center">feature 1</h4>
                 <p>
                     When you view this my page.There are many thing 
                     that you will know about me. I wish you good health and Thanks for view and read.
                 </p>
             </div>
             <div class="card word-beark p-1">
-                <i class="fas fa-check-circle font-size"></i>
-                <h4>feature 2</h4>
+                <div class="element-center">
+                    <i class="fas fa-check-circle font-size"></i>
+                </div>
+                <h4 class="text-uppercase element-center">feature 2</h4>
                 <p>
                     Feature 2 you can view my pictures , habits, that I release to you and any activity , you can learn from me. I will show my idea and what are place, country music
                 </p>
             </div>
             <div class="card word-beark p-1">
-                <i class="fas fa-check-circle font-size"></i>
-                <h4 class="">feature 3</h4>
+                <div class="element-center">
+                    <i class="fas fa-check-circle font-size"></i>
+                </div>
+                <h4 class="text-uppercase element-center">feature 3</h4>
                 <p>
                     I'm so glad that you read until features 3 , this feature as well you can click other page to from me. Especially my CV that I always need you view, so if any mistake on my website you recommend by click contact page.Thank!
                 </p>
@@ -113,5 +118,83 @@
         </div>
     </section>
 <div class="bt"></div>
+    <section id="img-home" class="container">
+        <div class="d-flex justify-centent-center ">
+            <div class="container">
+                <h4 class="bt text-uppercase">my picture</h4>
+                <p>
+                    I will show you about picture during Halloween day
+                </p>
+            </div>
+        </div>
+        <div class="d-flex group-card ">
+            <div class="element-center"><img class="rounded box-shadow-2 img" src="img/2.JPG" alt=""></div>
+            <div class="element-center"><img class="rounded box-shadow-2 img" src="img/3.JPG" alt=""></div>
+            <div class="element-center"><img class="rounded box-shadow-2 img" src="img/3.JPG" alt=""></div>
+        </div>
+    </section>
+    <section >
+        <div class="d-flex justify-centent-center ">
+            <div>
+                <h4 class="bt text-uppercase">my video</h4>
+                <p>
+                    This is my video I hope you enjoy it.
+                </p>
+            </div>
+        </div>
+        <div class="video">
+            <div class="d-flex justify-centent-center ">
+                <video width="320" height="240" controls class="box-shadow-2">
+                    <source src="img/1.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+    <footer >
+        <div class="d-flex box-shadow-2 text-uppercase mt text-white group-card justify-centent-center">
+            <div class=" p-1 ">
+                <h4 class="p-2">school</h4>
+                <ul class="list-style">
+                    <li>pnc</li>
+                </ul>
+            </div>
+            <div class="p-1 ">
+                <h4 class="p-2">wep</h4>
+               <ul class="list-style">
+                   <li><h4 class="p-2">front-end</h4></li>
+                   <ol class="text-capitalize">
+                       <li>css</li>
+                       <li>boostrap</li>
+                   </ol>
+                   <li><h4>back-end</h4></li>
+                   <ol>
+                        <li>javu</li>
+                        <li>pqp</li>
+                        <li>pqp</li>
+                    </ol>
+               </ul>
+            </div>
+            <div class="p-1 ">
+                <h4 class="p-2">wep design</h4>
+                <ul class="list-style text-capitalize">
+                    <li>photoshop</li>
+                    <li>figma</li>
+                    <li>iconfounder</li>
+                    <li>pixbay</li>
+                </ul>
+            </div>
+            <div class=" p-1 ">
+                <h4 class="p-2">social media</h4>
+                <ul class="list-style d-flex p-2 group-card">
+                    <li><i class="fab fa-facebook-square p-2 font-size-1"></i></li>
+                    <li><i class="fab fa-instagram-square p-2 font-size-1"></i></li>
+                    <li><i class="fab fa-twitter-square p-2 font-size-1"></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="d-flex justify-centent-center bg-black text-white p-2">
+            <i class="far fa-copyright font-size-0"> somnak kalan</i>
+        </div>
+    </footer>
 </body>
 </html>
