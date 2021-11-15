@@ -333,6 +333,9 @@ nav label,input{
     .w-1{
         width: 70%;
     }
+    .w-2{
+        width: 100%;
+    }
     .box{
         position: relative;
         top: 0.1rem;
