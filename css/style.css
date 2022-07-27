@@ -8,6 +8,9 @@ body{
 .font-arial{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.fs-about {
+    font-size: 50px;
+}
 .font-rokkit{
     font-family: 'Rokkitt', serif;
     font-family: 'Zen Old Mincho', serif;
@@ -42,7 +45,7 @@ body{
     color: white;
 }
 .text-black{
-    color: black;
+    color: rgb(0, 255, 30);
 }
 .bg-white{
     background: white;
@@ -53,8 +56,26 @@ body{
 .bg-black{
     background: black;
 }
+.home-de-flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: rgba(0, 104, 5, 0.604);
+}
 .p-1{
     padding: 2rem;
+}
+.footer-p-1{
+    flex:2;
+}
+.footer-p-2{
+    flex:2;
+}
+.footer-p-3{
+    flex:2;
+}
+.footer-p-4{
+    flex:2;
 }
 .p-2{
     padding: 10px;
@@ -105,7 +126,10 @@ body{
     border-bottom: solid 5px white;
 }
 .active{
-    background: rgb(255, 255, 255);
+    background: rgba(4, 0, 255, 0.671);
+    border-radius: 5px;
+ 
+    padding: 20px;
 }
 .m-auto{
     margin: auto;
@@ -163,32 +187,42 @@ nav{
     background: url(../img/1.jpg) ;
     background-size: cover;
     background-attachment: fixed;
+    padding: 0;
+    margin: 0;
 }
 nav .nav{
     display: flex;
-    position: relative;
-    bottom: 3rem;
-    margin-top:1.5rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: rgb(9, 69, 106);
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 nav .nav .logo{
-    padding:none;
+    padding:0;
+    margin-top: 5px;
 }
 nav .nav ul{ 
     list-style: none; 
-    margin: auto;
+    margin: 0;
+    padding: 0;
 }
 nav  .nav ul li{
     margin-left: 5rem;
     padding: 10px;
 }
 nav  .nav ul li:hover{
-    background:grey;
+    background:rgb(37, 133, 243);
     padding: 10px;
+    border-radius: 5px;
     transition: 0.5s;
 }
 nav  .nav ul li a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
+    
 }
 nav label,input{
     color: white;
@@ -198,6 +232,7 @@ nav label,input{
 }
 #header{
     display: flex;
+    margin-top: 3em;
 }
 #header .header-left img{
     border-radius: 1rem 0rem 0em 1rem;
@@ -209,6 +244,7 @@ nav label,input{
     width: 50%;
     border-radius: 0px 1rem 1rem 0rem;
 }
+
 #header button{
     padding: 1rem 5rem;
     margin-top: 5rem;
@@ -261,6 +297,7 @@ nav label,input{
     color: rgb(0, 0, 0);
     padding: 10px;
 }
+
 @media(max-width:850px){
     nav{
         display: block;
@@ -276,6 +313,7 @@ nav label,input{
     }
     nav .nav ul li:hover{
         background: rgb(118, 118, 119);
+       
     }
     nav .nav ul {
         flex-wrap: wrap;
